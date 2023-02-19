@@ -1,0 +1,142 @@
+body{
+	background-color:#d6c8a3;
+	font-family: Copperplate, Papyrus, fantasy;
+}
+.titleName{
+	font-family: Copperplate, Papyrus, fantasy;
+	font-size: 30px;
+}	
+.white_content
+{
+	position:absolute;
+	top:150px;
+	left:500px;
+	width:1080px;
+	height:800px;
+	background-color:#d6c8a3;
+	display:none;
+	z-index:1000;
+}
+.cart_white
+{
+	position:absolute;
+	top:150px;
+	left:500px;
+	width:500px;
+	height:800px;
+	background-color:#d6c8a3;
+	display:none;
+	z-index:1000;
+	font-size:28px;
+}
+.white_content button{
+	font-family: Copperplate, Papyrus, fantasy;
+	background-color:#188522;
+	border:none;
+	border-radius: 4px;
+}
+.white_content button:hover{
+	background-color:#0c4a11;
+	cursor:pointer;
+	color:white;
+	
+}
+
+
+.black_content
+{
+	display:none;
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:200%;
+	height:150%;
+	background-color:black;
+	opacity:.70;
+	z-index:1;
+	
+}
+ul
+{	
+	list-style-type:none;
+	background-color:#ab7248;
+	height:50px;
+	overflow:hidden;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-size: 20px;
+}
+li
+{
+	float:left;
+}
+li a, .drp
+{
+	  display: inline-block;
+	  color: black;
+	  text-align: center;
+	  padding: 10px 80px;
+	  text-decoration:none;
+	  font-size:20px;
+}
+li a:hover{
+	background-color:#aba69f;
+	color:white;
+	text-decoration:none;
+}
+li .menu-item
+{
+	display:inline-block;
+}
+.menu-content
+{
+	display:none;
+	position:absolute;
+	background-color:#ede9e4;
+	z-index:1;
+}
+.menu-content a {
+	color: black;
+	padding: 10px 80px;
+	text-decoration: none;
+	display: block;
+}
+.menu-item:hover .menu-content
+{
+	display:block;
+	
+}
+a{
+	font-family: Copperplate, Papyrus, fantasy;
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color:blue;
+	text-decoration: underline;
+}
+table tr td img {
+    padding: 10%;
+    width:  250px;
+    height: 250px;
+    object-fit: cover;
+}
+table{
+	align:center;
+	padding: 25px;
+}
+img{
+	size:60%;
+	padding: 2%;
+}
+.cart1
+{
+	position:absolute;
+	right:25px;
+	top:25px;
+	overflow:hidden;
+}
+.favoritestar {
+	height:100px;
+	width:100px;
+}
+

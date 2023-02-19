@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+
+<html>
+	
+	<head>
+	<script src="jss\script.js"></script>
+	<link rel="stylesheet" href="css\styles.css">
+	</head>
+	
+	<body align='center' onload="popupclose('1')">
+	<img width=5% padding=0% src="img\logo2.png"/><div class="titleName"> <h2> Virtual Zoo  </h2></div>
+	<div class="cart1" id="mycart" >
+		<div id="mycart" class="cartcount"> </div>
+		<a href = "javascript:void(0)" onclick="popupfunction('0')"><img class="favoritestar" src="img/star2.png" /></a>
+	</div>
+	
+	<ul>
+		<li class="menu-item"><a href="#" class="drp">North America </a>
+		<div class="menu-content">
+			<a href="#">Grizzly Bear</a><br>
+			<a href="#">Moose</a><br>
+			
+		</div>
+		</li>
+
+		<li class="menu-item"><a href="#" class="drp">South America </a>	
+		<div class="menu-content">
+			<a href="#">Parrot</a><br>
+			
+		</div>
+		</li>
+		
+		<li class="menu-item"><a href="#" class="drp">Europe </a>	
+		<div class="menu-content">
+			<a href="#">Golden Eagle</a><br>
+			
+		</div>
+		</li>
+		
+		<li class="menu-item"><a href="#" class="drp">Africa </a>	
+		<div class="menu-content">
+			<a href="#">Elephant</a><br>
+			<a href="#">Chimpanzee</a><br>
+			<a href="#">Giraffe</a><br>
+		</div>
+		</li>
+		
+		<li class="menu-item"><a href="#" class="drp">Asia </a>	
+		<div class="menu-content">
+			<a href="#">Tiger</a><br>
+			
+		</div>
+		</li>
+		
+		<li class="menu-item"><a href="#" class="drp">Australia </a>	
+		<div class="menu-content">
+			<a href="#">Kangaroo</a><br>
+			
+		</div>
+		</li>
+		
+		<li class="menu-item"><a href="#" class="drp">Antarctica </a>	
+		<div class="menu-content">
+			<a href="#">Penguin</a><br>
+			
+		</div>
+		</li>
+	</ul><br><br>
+<table align="center">
+ <tr>
+	<td>
+	<a href = "javascript:void(0)" onclick ="popupfunction('1');play('1')" class=linktext>
+		<img src="img\tiger.jpg"  />Tiger
+	</a>
+	</td>
+	
+	<td>
+	<a href = "javascript:void(0)" onclick ="popupfunction('2');play('2')" class=linktext>
+		<img src="img\chimp.jpg"  />Chimpanzee
+	</a>
+	</td>
+	
+	<td>
+	<a href = "javascript:void(0)" onclick ="popupfunction('3');play('3')" class=linktext>
+		<img src="img\elephant.jpg" />Elephant
+	</a>
+	</td>
+	
+	<td>
+	<a href = "javascript:void(0)" onclick ="popupfunction('4');play('4')" class=linktext>
+		<img src="https://canadiangeographic.ca/wp-content/uploads/2022/08/36211246-Grizzly_Bear_Siblings-1024x652.jpg" />Bear
+	</a>
+	</td>
+	
+	<td>
+	<a href = "javascript:void(0)" onclick ="popupfunction('5');play('5')" class=linktext>
+		<img src="img\goldeneagle.jpg" />Golden Eagle
+	</a>
+	</td>
+</tr>
+<tr>	
+	<td>
+	<a href = "javascript:void(0)" onclick ="popupfunction('6');play('6')" class=linktext>
+		<img src="img\giraffe.jpg"  />Giraffe
+	</a>
+	</td>
+	
+	<td>
+	<a href = "javascript:void(0)" onclick ="popupfunction('7');play('7')" class=linktext>
+		<img src="img\kangaroo.jpg" width=20% />Kangaroo
+	</a>
+	</td>
+	
+	<td>
+	<a href = "javascript:void(0)" onclick ="popupfunction('8');play('8')" class=linktext>
+		<img src="img\moose.jpg" width=20% />Moose
+	</a>
+	</td>
+	
+	<td>
+	<a href = "javascript:void(0)" onclick ="popupfunction('9');play('9')" class=linktext>
+		<img src="img\parrot.jpg" width=20% />Parrot
+	</a>
+	</td>
+	
+	<td>
+	<a href = "javascript:void(0)" onclick ="popupfunction('10');play('10')" class=linktext>
+		<img src="img\penguin.jpg" width=20% />Penguin
+	</a>
+	</td>
+</tr>
+</table>
+
+	<audio id="audio10" src="img\penguinnoise.mp3"></audio>
+	<audio id="audio9" src="img\parrotnoise.mp3"></audio>
+	<audio id="audio8" src="img\moosenoise.mp3"></audio>
+	<audio id="audio7" src="img\kangaroonoise.mp3"></audio>
+	<audio id="audio6" src="img\giraffenoise.mp3"></audio>
+	<audio id="audio5" src="img\eaglenoise.mp3"></audio>
+	<audio id="audio4" src="img\bearnoise.mp3"></audio>	
+	<audio id="audio3" src="img\elephantnoise.mp3"></audio>
+	<audio id="audio2" src="img\chimpnoise.mp3"></audio>
+	<audio id="audio1" src="img\roar.mp3"></audio>
+	<div id="fade10" class="black_content"></div>
+	<div id="fade9" class="black_content"></div>
+	<div id="fade8" class="black_content"></div>
+	<div id="fade7" class="black_content"></div>
+	<div id="fade6" class="black_content"></div>
+	<div id="fade5" class="black_content"></div>
+	<div id="fade4" class="black_content"></div>	
+	<div id="fade3" class="black_content"></div>	
+	<div id="fade2" class="black_content"></div>
+	<div id="fade1" class="black_content"></div>
+	<div id="fade0" class="black_content"></div>
+	
+	<div id="popup0" class="cart_white"><br>
+		<h1>Favorites:</h1>
+		<a href = "javascript:void(0)" onclick = "popupclose('0')" class=linktext>close window</a><br>
+	</div>
+	<div id="popup1" class="white_content">
+		<img src="img\tiger.jpg" width=60% /><br><h1>Tiger</h1>
+		Scientific Name: Panthera tigris<br>
+		Weight: 220–660 pounds<br> 
+		Length: 6–10 feet<br>
+		Habitats: Tropical rainforests, evergreen forests, temperate forests, mangrove swamps, grasslands, and savannas<br>
+		<br><button id="addText" onclick="addToCart('Tiger')"> Add to Favorites </button>
+		<a href = "javascript:void(0)" onclick = "popupclose('1')" class=linktext>close window</a>
+	</div>
+	<div id="popup2" class="white_content">
+		<img src="img\chimp.jpg" width=60% /><br><h1>Chimpanzee</h1>
+		Scientific Name: Pan troglodytes<br>
+		Weight: 71-130 pounds<br> 
+		Height: 3-5.5 feet<br>
+		Habitats: Forests (moist and dry forests), Savannah Woodlands, and Grassland-Forest mosaics<br>
+		<br><button id="addText" onclick="addToCart('Chimpanzee')"> Add to Favorites </button>
+		<a href = "javascript:void(0)" onclick = "popupclose('2')" class=linktext>close window</a>
+	</div>
+	<div id="popup3" class="white_content">
+		<img src="img\elephant.jpg" width=60% /><h1>Elephant</h1>
+		Scientific Name: Loxodonta<br>
+		Weight: 15,000 pounds<br> 
+		Height: 10-13 feet<br>
+		Habitats: Savannas, grasslands, and forests<br>
+		<br><button id="addText" onclick="addToCart('Elephant')"> Add to Favorites </button>
+		<a href = "javascript:void(0)" onclick = "popupclose('3')" class=linktext>close window</a><br>
+	</div>
+	<div id="popup4" class="white_content">
+		<img src="https://canadiangeographic.ca/wp-content/uploads/2022/08/36211246-Grizzly_Bear_Siblings-1024x652.jpg" width=60% /><h1>Bear</h1>
+		Scientific Name: Ursus arctos horribilis<br>
+		Weight: 180 – 1,300 pounds<br> 
+		Height: 3-5 feet on all fours up to 9 feet on hind legs<br>
+		Habitats: Woodlands, forests, alpine meadows, and prairies<br>
+		<br><button id="addText" onclick="addToCart('Bear')"> Add to Favorites </button>
+		<a href = "javascript:void(0)" onclick = "popupclose('4')" class=linktext>close window</a><br>
+	</div>
+	<div id="popup5" class="white_content">
+		<img src="img\goldeneagle.jpg" width=60% /><h1>Golden Eagle</h1>
+		Scientific Name: Aquila chrysaetos<br>
+		Weight: 6-15 pounds<br> 
+		Wingspan: 5.9 – 7.7 feet<br>
+		Habitats: Open mountains, foothills, plains, open country<br>
+		<br><button id="addText" onclick="addToCart('Golden Eagle')"> Add to Favorites </button>
+		<a href = "javascript:void(0)" onclick = "popupclose('5')" class=linktext>close window</a><br>
+	</div>
+	<div id="popup6" class="white_content">
+		<img src="img\giraffe.jpg" width=60% /><h1>Giraffe</h1>
+		Scientific Name: Giraffa<br>
+		Weight: 2,600 – 4,200 pounds<br> 
+		Height: 14-19 feet<br>
+		Habitats: Semi-arid savannah and savannah woodlands in Africa<br>
+		<br><button id="addText" onclick="addToCart('Giraffe')"> Add to Favorites </button>
+		<a href = "javascript:void(0)" onclick = "popupclose('6')" class=linktext>close window</a><br>
+	</div>
+	<div id="popup7" class="white_content">
+		<img src="img\kangaroo.jpg" width=60% /><h1>Kangaroo</h1>
+		Scientific Name: Macropodidae<br>
+		Weight: 75 – 200 pounds<br> 
+		Height: 3 to 8 feet<br>
+		Habitats: Found over most of arid Australia, preferring flat open plains<br>
+		<br><button id="addText" onclick="addToCart('Kangaroo')"> Add to Favorites </button>
+		<a href = "javascript:void(0)" onclick = "popupclose('7')" class=linktext>close window</a><br>
+	</div>
+	<div id="popup8" class="white_content">
+		<img src="img\moose.jpg" width=60% /><h1>Moose</h1>
+		Scientific Name: Alces alces<br>
+		Weight: 440 – 1,500 pounds<br> 
+		Height: 4.6 – 6.9 feet<br>
+		Habitats: Forested areas with streams and ponds<br>
+		<br><button id="addText" onclick="addToCart('Moose')"> Add to Favorites </button>
+		<a href = "javascript:void(0)" onclick = "popupclose('8')" class=linktext>close window</a><br>
+	</div>
+	<div id="popup9" class="white_content">
+		<img src="img\parrot.jpg" width=60% /><h1>Parrot</h1>
+		Scientific Name: Psittaciformes<br>
+		Weight: 2.25 - 56 ounces<br> 
+		Wingspan: 41 - 45 inches<br>
+		Habitats: Rainforests, grasslands, savannas, semi-arid regions, and even islands<br>
+		<br><button id="addText" onclick="addToCart('Parrot')"> Add to Favorites </button>
+		<a href = "javascript:void(0)" onclick = "popupclose('9')" class=linktext>close window</a><br>
+	</div>
+	<div id="popup10" class="white_content">
+		<img src="img\penguin.jpg" width=60% /><h1>Penguin</h1>
+		Scientific Name: Spheniscidae<br>
+		Weight: 2.2 - 3.3 pounds<br> 
+		Height: 1 - 4.5 feet<br>
+		Habitats: Oceans and coasts<br>
+		<br><button id="addText" onclick="addToCart('Penguin')"> Add to Favorites </button>
+		<a href = "javascript:void(0)" onclick = "popupclose('10')" class=linktext>close window</a><br>
+	</div>
+	
+	
+	</body>
+</html>
